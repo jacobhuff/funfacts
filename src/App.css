@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: rgb(120, 182, 233);
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 70%;
+  margin: 100px auto 0 auto;
+}
+.squares {
+  width: 516px;
+  height: 250px;
+  margin: 0 auto;
+}
+.square {
+  float: left;
+  margin: 2.5px 10px;
+  width: 150px;
+  height: 150px;
+  line-height: 140px;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition-duration: 0.8s;
+}
+.square:hover {
+  background-color: black;
+  color: rgb(120, 182, 233);
+}
+a {
+  color: black;
+  font-weight: bold;
+}
+h3 {
+  font-size: 20px;
+  color: rgb(66, 66, 66);
+}
