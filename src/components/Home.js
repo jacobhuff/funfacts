@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom'
 const Home = () => {
   return (
     <div className="container">
-      <h1>Fun facts about JavaScript</h1>
+      <h1>Fun facts about Random Things</h1>
       <p>Click a sqaure to reveal a fact</p>
       <div className="squares">
         <Link to='/factOne'><div className="square">Fact 1</div></Link>
